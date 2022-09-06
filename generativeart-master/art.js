@@ -83,8 +83,8 @@ function artwork5() {
         console.log(i)
         const newDiv = document.createElement("div");
         newDiv.classList.add("circle");
-        newDiv.style.width = `${i}px`;
-        newDiv.style.height = `${i}px`;
+        newDiv.style.width = `${i/2}px`;
+        newDiv.style.height = `${i/2}px`;
         art5.appendChild(newDiv);
         }
 }
